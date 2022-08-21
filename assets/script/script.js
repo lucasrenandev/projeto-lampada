@@ -3,7 +3,7 @@ const button = document.querySelector("#ligar-desligar")
 const lamp = document.querySelector("#imagem")
 
 button.addEventListener("click", On_Off)
-lamp.addEventListener("mouseover", Ligar)
+lamp.addEventListener("mouseenter", Ligar)
 lamp.addEventListener("mouseleave", Desligar)
 lamp.addEventListener("dblclick", Quebrar)
 
